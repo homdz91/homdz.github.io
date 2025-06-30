@@ -1,10 +1,3 @@
-HOM_Site/
-├── index.html
-├── style.css
-└── images/
-    └── logo.png (à ajouter si tu veux le logo dans le site)
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
