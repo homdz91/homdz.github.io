@@ -4,4 +4,4 @@ hom-site/
 ├── style.css ← les styles CSS
 ├── README.md ← (facultatif) description du projet
 └── galerie/
-    └── logo.png.png ← ton logo ici
+    └── logo.png ← ton logo ici
