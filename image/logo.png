@@ -3,5 +3,5 @@ hom-site/
 ├── index.html ← la page principale de ton site
 ├── style.css ← les styles CSS
 ├── README.md ← (facultatif) description du projet
-└── galerie/
+└── image/
     └── logo.png ← ton logo ici
