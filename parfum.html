@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parfums - House of Mona</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+    .product p {
+      margin: 0.2rem 1rem;
+    }
+    .price {
+      color: #b48856;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>House of Mona</h2>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="vetements.html">Vêtements</a>
+      <a href="maquillage.html">Maquillage</a>
+      <a href="parfum.html">Parfum</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Collection Parfums</h1>
+    <div class="gallery">
+      <div class="product">
+        <img src="images/Screenshot_20250707_130130_WhatsApp.jpg" alt="Parfum 1">
+        <h3>Éclat d'Or</h3>
+        <p>Un sillage oriental avec des notes ambrées et de musc blanc.</p>
+        <p class="price">6,800 DZD</p>
+      </div>
+      <div class="product">
+        <img src="images/Screenshot_20250707_130137_WhatsApp.jpg" alt="Parfum 2">
+        <h3>Velours de Nuit</h3>
+        <p>Élégance profonde pour les soirées chics, à base de patchouli et de bois précieux.</p>
+        <p class="price">7,200 DZD</p>
+      </div>
+      <div class="product">
+        <img src="images/Screenshot_20250707_130142_WhatsApp.jpg" alt="Parfum 3">
+        <h3>Jardin Secret</h3>
+        <p>Frais et floral avec des accents de jasmin et bergamote.</p>
+        <p class="price">5,900 DZD</p>
+      </div>
+      <div class="product">
+        <img src="images/Screenshot_20250707_130151_WhatsApp.jpg" alt="Parfum 4">
+        <h3>Ambre Élixir</h3>
+        <p>Un parfum intense et sensuel à base d’ambre et de vanille.</p>
+        <p class="price">6,500 DZD</p>
+      </div>
+      <div class="product">
+        <img src="images/Screenshot_20250707_130157_WhatsApp.jpg" alt="Parfum 5">
+        <h3>Rose Sublime</h3>
+        <p>Une rose moderne, fraîche et poudrée avec une touche fruitée.</p>
+        <p class="price">6,300 DZD</p>
+      </div>
+      <div class="product">
+        <img src="images/Screenshot_20250707_130202_WhatsApp.jpg" alt="Parfum 6">
+        <h3>Bois de Lune</h3>
+        <p>Un accord boisé et épicé pour un style mystérieux et affirmé.</p>
+        <p class="price">7,800 DZD</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 House of Mona. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
